@@ -1,0 +1,30 @@
+Zarac@ytv*2019
+
+
+
+*****************************************
+Clinica veterinaria
+clientes 
+nombre string
+correo string
+telefono number
+direccion string
+ciudad string
+estado boleano
+provincia string
+
+mascotas
+nombre string
+tipo de mascota string
+raza string
+sexo string
+estado del animal string
+
+
+consulta
+que alimnto usa
+sintomas
+desde cuando presenta los sintomas
+fecha hora
+
+

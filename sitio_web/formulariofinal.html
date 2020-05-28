@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Formulario</title>
+</head>
+<body>
+	<H1>Registro en nuestra tienda</H1>
+<form action="#">
+	<fieldset>
+		<p>
+		<label for="nombre">Nombre de usuario*:</label><br/> 
+		<input type="text" name="nombre" placeholder="Ej:Andres" required>
+        </p>
+        <p>
+        <label for="email">Email*:</label><br/> 
+		<input type="Email" name="email" required>
+        </p>
+        <p>
+        <label for="edad">Edad:</label><br/> 
+		<input type="text" name="edad" placeholder="Ej: 25">
+        </p>
+        <p>
+        	<label for="Recomendado por:">Recomendado por:</label><br/>
+        	<select name="Recomendado por:">
+        		<option value="1">Google</option>
+                <option value="1">amigo</option>
+                <option value="1">Redes Sociales</option>
+        	</select>
+        	<p>
+        		<label for="comentario" >Comentario</label><br/>
+        		<textarea name="comentario" id="" cols="40" rows="10"></textarea>
+        	</p>
+            <p>
+            	<input type="checkbox" id="si" required="">
+            	<label for="si"> Acepto y condiciones*:</label>
+            </p>
+            <p> 
+            	
+            	<input type="submit" value="registrar">
+            </p>
+
+	</fieldset>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+actor
+id
+nombre string
+color de cabello enumerado o string
+piel string
+ojos string
+fecha de nacimiento  fecha
+peso punto flotante (kilos)
+altura punto flotante 
+raza string
+genero boleano
+descripsion string
+
+dominioalidioma
+id actor
+id idioma
+nivel_hablado: enumerado o string
+
+idiomas
+id entero
+nombre string
+
+multimedia
+id actor
+archivo binario
+descrpcion sttring
+
+
+Zarac@ytv*2019
+
+
+estudiante 
+id          123        567        
+nombre     luis         manuela
+apellido   aguilar       silva
+
+
+
+calificacion
+tarea              1                       1
+fecha              16 de marzo 2018       15 de marzo 2018
+calidicacion        50                    90
+estufdiante_id      123                    567
+
+***********************************************************
+cliente
+id  entero                  1002
+nombre string                ernesto
+email string                 ernesto@miemail.com
+
+tarjeta virtual de fidelidad
+numero de tarjeta entero      1
+numero de clases entero       3
+id_cliente                   1002
+*******************no relacional***json
+{
+  cliente:{
+            id:1002,
+            nombre:"Ernesto",
+            email:"mail.com",
+            tarjetas:[{
+             numero_de_tarjetas:1,
+             numero_de_clases:3
+}] 
+         }
+}
+*******************************************************
+cocinero
+nombre
+
+plato
+
+
+
+
+
+
+
+
+
+
+
+
+

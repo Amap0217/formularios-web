@@ -1,0 +1,24 @@
+
+CANAL 
+id
+nombre
+numero
+logo
+
+
+programa
+id
+titulo
+duracion
+resumen
+programacion
+trailer
+imagen
+genero
+actores importantes
+año de procucion
+
+programacion 
+id canal
+id progrma
+fecha_hora
